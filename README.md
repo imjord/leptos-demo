@@ -1,13 +1,14 @@
 # leptos-demo
 
 
+``` 
 use leptos::prelude::*;
 
 fn main() {
     leptos::mount::mount_to_body(|| {
         view! {
             <>
-                // Navbar
+                Navbar
                 <nav class="navbar">
                     <div class="nav-logo">"MySite"</div>
                     <ul class="nav-links">
@@ -17,7 +18,7 @@ fn main() {
                     </ul>
                 </nav>
 
-                // Landing section
+                Landing section
                 <section id="home" class="landing">
                     <h1>"Welcome to MySite"</h1>
                     <p>"A super simple Leptos landing page"</p>
@@ -26,7 +27,7 @@ fn main() {
             </>
         }
     })
-}
+} ```
 
 
 //css
